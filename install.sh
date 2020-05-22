@@ -63,6 +63,7 @@ echo_static_postinstall() {
   echo
   cat << EOF
 Static release has been installed into $STATIC_INSTALL_PREFIX/lib/code-server-$VERSION
+
 Please extend your path to use code-server:
   PATH="$STATIC_INSTALL_PREFIX/bin:\$PATH"
 Then you can run:
